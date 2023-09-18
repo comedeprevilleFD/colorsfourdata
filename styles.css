@@ -5,6 +5,8 @@
     --rouge:#ce173c;
     --gris-fi-1:#383838;
     --gris-fi-2:#bababa;
+    --vert-agrilab:#078a77;
+    --gris-agri:#999999;
 }
 
 /* Importez la police "Inter" depuis Google Fonts */
@@ -113,5 +115,15 @@ footer p {
 
 .btn-color-6 {
     background-color: var(--gris-fi-2);
+    color: #fff;
+}
+
+.btn-color-7 {
+    background-color: var(--vert-agrilab);
+    color: #fff;
+}
+
+.btn-color-8 {
+    background-color: var(--gris-agri);
     color: #fff;
 }
