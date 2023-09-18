@@ -1,0 +1,117 @@
+:root {
+    --bleu-nuit: #122236;
+    --bleu-clair: #1BA1DC;
+    --gris-leger: #F8FAFC;
+    --rouge:#ce173c;
+    --gris-fi-1:#383838;
+    --gris-fi-2:#bababa;
+}
+
+/* Importez la police "Inter" depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    background-color: var(--gris-leger); /* Couleur de fond */
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header img {
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    flex-grow: 1; /* Pousse le contenu principal pour remplir l'espace disponible */
+    margin: 0 auto; /* Centrer le contenu horizontalement */
+    max-width: 600px;
+}
+
+.brand {
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    flex-direction: column; /* Les boutons s'afficheront les uns au-dessus des autres */
+    align-items: center; /* Centrer verticalement les boutons */
+    text-align: center; /* Centrer horizontalement le texte */
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.color-button {
+    background-color: #000; /* Couleur de fond initiale */
+    color: #fff; /* Texte en blanc */
+    padding: 30px;
+    margin: 30px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1), -6px -6px 12px rgba(255, 255, 255, 0.7); /* Ajoutez une ombre pour l'effet de neumorphisme */
+    font-weight: 700;
+    display: block; /* Afficher les boutons en tant qu'éléments de bloc (les uns au-dessus des autres) */
+}
+
+.color-button:hover {
+    background-color: var(--gris-leger); /* Couleur de fond au survol */
+    color: #000; /* Texte en noir */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9); /* Ombre modifiée au survol */
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+footer a {
+    color: var(--bleu-clair);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer p {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Ajoutez ces règles CSS pour les classes de couleurs */
+.btn-color-1 {
+    background-color: var(--bleu-nuit);
+    color: #fff;
+}
+
+.btn-color-2 {
+    background-color: var(--bleu-clair);
+    color: #fff;
+}
+
+.btn-color-3 {
+    background-color: var(--gris-leger);
+    color: #000;
+}
+
+.btn-color-4 {
+    background-color: var(--rouge);
+    color: #fff;
+}
+
+.btn-color-5 {
+    background-color: var(--gris-fi-1);
+    color: #fff;
+}
+
+.btn-color-6 {
+    background-color: var(--gris-fi-2);
+    color: #fff;
+}
