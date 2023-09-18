@@ -33,7 +33,7 @@ main {
     padding: 30px;
     flex-grow: 1; /* Pousse le contenu principal pour remplir l'espace disponible */
     margin: 0 auto; /* Centrer le contenu horizontalement */
-    max-width: 600px;
+    max-width: 1200px;
 }
 
 .brand {
