@@ -1,5 +1,5 @@
 // Variables globales pour les codes hexadécimaux
-const colorCodes = ["#122236", "#1BA1DC", "#F8FAFC", "#ce173c", "#383838", "#bababa", "#078a77", "#999999"];
+const colorCodes = ["#122236", "#1BA1DC", "#F8FAFC", "#ce173c", "#383838", "#bababa", "#078a77", "#999999","#fece00","#54504f"];
 
 // Ajoute un gestionnaire d'événements à chaque bouton
 for (let i = 1; i <= colorCodes.length; i++) {
